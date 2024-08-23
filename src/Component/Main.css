@@ -1,0 +1,45 @@
+.loader hr {
+  border-radius: 4px;
+  border: none;
+  background-color: #f9f1f1;
+  background: linear-gradient(to right, #5bec86, #f9f1f1, #5bec86);
+  background-size: 800px 50px;
+  height: 20px;
+  gap: 10px;
+  animation: loader 3s infinite linear;
+}
+
+@keyframes loader {
+  0% {
+    background-position: -800px 0px;
+  }
+  100% {
+    background-position: 800px 0px;
+  }
+}
+
+.loader p {
+  line-height: 1.7;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, rgb(123, 239, 123), rgb(254, 254, 254));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.btn{
+    background-image: linear-gradient(to right, rgb(145, 231, 145), rgb(84, 253, 12));
+}
